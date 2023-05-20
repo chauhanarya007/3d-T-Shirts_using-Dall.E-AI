@@ -39,7 +39,7 @@ const Home = () => {
                 and define your own style.
               </p>
               <p className="max-w-md font-normal text-red-600 text-base">
-                Note: Please dont overuse the DALL.E AI Image generation, it uses <strong>paid credits</strong> to generate images.
+                Note: Please don't overuse the DALL.E AI Image generation, it uses <strong>paid credits</strong> to generate images.
               </p>
 
               <CustomButton
