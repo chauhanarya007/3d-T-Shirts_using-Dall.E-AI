@@ -19,7 +19,5 @@
     "nodemon": "^2.0.22",
     "openai": "^3.2.1"
   },
-  "engines": {
-    "node": ">=14 <15"
-  }
+  "engines": { "node": "18.x" }
 }
