@@ -40,5 +40,5 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
     </div>
   )
 }
-
+//ihihihhiih
 export default AIPicker
