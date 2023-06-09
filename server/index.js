@@ -7,7 +7,7 @@ import dalleRoutes from './routes/dalle.routes.js';
 dotenv.config();
 const cors = require('cors');
 app.use(cors({
-  origin: 'https://www.section.io'
+  origin: 'https://3d-t-shirts-using-dall-e-ai.vercel.app/'
 }));
 
 const app = express();
