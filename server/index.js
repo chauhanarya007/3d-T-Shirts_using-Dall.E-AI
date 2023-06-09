@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 //const cors = require('cors');
 app.use(cors({
-  origin: 'https://3d-t-shirts-using-dall-e-ai.vercel.app/'
+  origin: '*'
 }));
 app.use(express.json({ limit: "50mb" }))
 
