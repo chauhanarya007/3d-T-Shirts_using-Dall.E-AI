@@ -5,13 +5,13 @@ import cors from 'cors';
 import dalleRoutes from './routes/dalle.routes.js';
 
 dotenv.config();
-const cors = require('cors');
+
+
+const app = express();
+//const cors = require('cors');
 app.use(cors({
   origin: 'https://3d-t-shirts-using-dall-e-ai.vercel.app/'
 }));
-
-const app = express();
-app.use(cors());
 app.use(express.json({ limit: "50mb" }))
 
 app.use("/api/v1/dalle", dalleRoutes);
