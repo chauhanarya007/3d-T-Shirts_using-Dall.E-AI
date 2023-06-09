@@ -5,6 +5,10 @@ import cors from 'cors';
 import dalleRoutes from './routes/dalle.routes.js';
 
 dotenv.config();
+const cors = require('cors');
+app.use(cors({
+  origin: 'https://www.section.io'
+}));
 
 const app = express();
 app.use(cors());
