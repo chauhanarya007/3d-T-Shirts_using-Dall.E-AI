@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-three/drei": "^9.68.3",
-    "@react-three/fiber": "^8.13.0",
+    "@react-three/drei": "^9.74.8",
+    "@react-three/fiber": "^8.13.1",
     "framer-motion": "^10.12.12",
     "maath": "^0.5.3",
     "prop-types": "^15.8.1",
@@ -19,6 +19,7 @@
     "react-color": "^2.19.3",
     "react-dom": "^18.2.0",
     "three": "^0.152.2",
+    "three-stdlib": "^2.23.9",
     "valtio": "^1.10.5"
   },
   "devDependencies": {
@@ -35,6 +36,6 @@
     "vite": "^4.3.2"
   },
   "engines": {
-    "node": ">=14 <15"
-    }
+    "node": "18x"
+  }
 }
